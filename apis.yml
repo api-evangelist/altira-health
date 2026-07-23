@@ -1,8 +1,25 @@
 aid: altira-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/altira-health.png
 name: Altira Health
-description: 'Altira Health is a company surfaced as a portfolio company of homebrew and added to the
-  API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Altira Health is a San Francisco-based healthcare technology company, founded in 2025,
+  building AI-powered clinical follow-up for health systems. Its virtual clinical assistant, Lena,
+  engages discharged and at-risk patients over voice and SMS, carries clinical context from the EMR
+  across interactions, adapts across languages, escalates to human clinicians when needed, and documents
+  findings directly back into the electronic medical record. The platform aims to recover clinician
+  staff time and reduce hospital readmissions, and advertises API, webhook, dashboard, and analytics
+  surfaces for connected EMR workflows (no public developer portal or API documentation is published as
+  of this profile). Backed by Homebrew, Coalition, Focal, Stone Mountain Ventures, and Wireframe Ventures.'
 url: https://raw.githubusercontent.com/api-evangelist/altira-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,6 +33,13 @@ modified: '2026-07-17'
 tags:
 - Company
 - Healthcare
+- Health Technology
+- Clinical
+- Artificial Intelligence
+- Patient Engagement
+- EMR
+- Voice
+- SMS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/altira-health-domain-security.yml
 - type: Website
   url: https://www.altirahealth.com
+- type: PrivacyPolicy
+  url: https://www.altirahealth.com/privacy-policy
+- type: TermsOfService
+  url: https://www.altirahealth.com/terms-conditions
+- type: Support
+  url: https://www.altirahealth.com/contact-us
+- type: LinkedIn
+  url: https://www.linkedin.com/company/altira-health
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
