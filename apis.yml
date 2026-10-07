@@ -68,6 +68,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Pricing
+  url: https://www.altirahealth.com/medicare-special-needs-plan
+- type: Plans
+  url: plans/altira-health-plans-pricing.yml
 - type: DomainSecurity
   url: security/altira-health-domain-security.yml
 - type: Website
